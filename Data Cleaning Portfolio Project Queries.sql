@@ -146,8 +146,7 @@ from NashvilleHousing
 Alter table NashvilleHousing
 Drop Column OwnerAddress, PropertyAddress
 
-
-
+-- Created by Rohan Kumar
 
 
 
