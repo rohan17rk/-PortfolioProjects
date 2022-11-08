@@ -110,13 +110,14 @@ Select SoldAsVacant,
 	case When SoldAsVacant = 'Y' Then 'Yes'
 		 When SoldAsVacant = 'N' Then 'No'
 		 Else SoldAsVacant
-		 end
+		 End
 from NashvilleHousing
 
 Update NashvilleHousing
 set SoldAsVacant = case When SoldAsVacant = 'Y' Then 'Yes'
 						When SoldAsVacant = 'N' Then 'No'
 						Else SoldAsVacant
+						End
 
 ----------------------------------------------------------------------------------------------------
 
@@ -144,20 +145,6 @@ from NashvilleHousing
 
 Alter table NashvilleHousing
 Drop Column OwnerAddress, PropertyAddress
-
-
-
-
-
-
-
-
-
-
-						end
-
-
-
 
 
 
